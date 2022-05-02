@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(142, 90, 145) , rgb(39, 22, 54));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 40px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.address {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  }
+
+.white-text {
+   color: #fff;
+}
+
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div[class^="item-"] {
+  outline: 1px solid #fff;
+  color: #fff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-template-rows: repeat(1, 1fr); */
+  }
+
+.text {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+
+.room {
+  padding-top: 10px;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.violet {
+  background-color: rgb(97, 12, 167);
+}
+
+.pink {
+  background-color: rgb(202, 74, 202) ;
+}
+
+.item-17 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+
+.item-47 {
+  grid-column-start: 8;
+  grid-row-start: 6;
+  grid-row-end: 17;
+}
+
+.item-48 {
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
+
+.item-67 {
+  grid-row-start: 10;
+  grid-row-end: 13;
+}
+
+.item-74, .item-93 {
+  padding-top: 20px;
+}
+
+.item-86 {
+  grid-row-start: 13;
+  grid-row-end: 16;
+}
+
+.item-112 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item-118 {
+  grid-column-start: 8;
+  grid-row-start: 17;
+  grid-row-end: 21;
+}
+
+
+
